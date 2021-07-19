@@ -1,0 +1,23 @@
+table{
+
+margin:auto ;
+padding: 20px;
+text-align: justify;
+font-family: Arial;
+font-size: medium;
+font-weight: bold;
+
+
+}
+td{
+  padding: 10px;
+}
+.redcolor{
+
+  color: red;
+
+}
+h1{
+  text-align: center;
+  word-spacing: 10px;
+}
