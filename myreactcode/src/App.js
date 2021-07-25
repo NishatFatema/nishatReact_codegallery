@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {Cources} from "./components/Cources";
+// import { Counter } from './compo/Counter';
+import { CardParent } from './components/reducers/component1/CardParent';
+// import {Cources} from "./components/Cources";
+
 
 function App() {
   return (
-    
-      
-       <Cources/>
+    // <Counter/>
+      <CardParent/>
+      //  <Cources/>
     );
 }
 
