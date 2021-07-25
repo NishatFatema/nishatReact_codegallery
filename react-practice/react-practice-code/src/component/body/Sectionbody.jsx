@@ -1,10 +1,11 @@
-import React from "react" ;
+import React from "react";
 import './Sectionbody.css';
+
 
 const Sectionbody=()=> {
     return (
-        
-        <div>
+
+         <div>
             <img src="image2.jpg" alt="" height="300px" width="300px" />
         </div>
     )

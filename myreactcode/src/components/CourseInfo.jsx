@@ -1,17 +1,17 @@
-export const CourseInfo=({CourseName,institute,contact,city})=>{
+export const CourseInfo=({courseName,instituteName,contact,city})=>{
     return(
         <table border="4px">
         <tr>
           <td>Course Name </td>
           <td>: </td>
-          <td className="redcolor">{CourseName}</td>
+          <td className="redcolor">{courseName}</td>
         </tr>
           
         
         <tr>
           <td>Institute </td>
           <td>: </td>
-          <td>{institute}</td>
+          <td>{instituteName}</td>
           </tr>
           
           <tr>
