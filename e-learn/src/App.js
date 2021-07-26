@@ -1,14 +1,16 @@
 import './App.css';
-import Elearn from "./components/Elearn"
-import  Elearn1  from './components1/Elearn1';
+// import Elearn from "./components/Elearn"
+// import  Elearn1  from './components1/Elearn1';
+import {Gridlayout} from './Layouts/Gridlayout';
 
 
 function App() {
   return (
     <div className="App">
-        
-      <Elearn/>
-      <Elearn1/>
+        <Gridlayout />
+
+      {/* <Elearn/>
+      <Elearn1/> */}
 
 </div>
   );
