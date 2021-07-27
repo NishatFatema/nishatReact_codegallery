@@ -21,7 +21,8 @@ export const Gridlayout = () =>{
                     <Row>
                     <label>First Name</label>
                     <Col>
-                    <Form.Control type="text" placeholder="First Name" onChange={(e)=> setFname (e.target.value)} value={fname} />
+                    <Form.Control type="text" placeholder="First Name" 
+                    onChange={(e)=> setFname (e.target.value)} value={fname} />
                     </Col>
                     </Row>
                     <Row>
