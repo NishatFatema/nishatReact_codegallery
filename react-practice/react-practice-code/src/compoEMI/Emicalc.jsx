@@ -10,8 +10,11 @@ import "./Emicalc.css";
 
      const handleCalEMI=()=>{
 
-         const si=((p*n*r)/100);
+          const si=((p*n*r)/100);
+        //   const ci=(p*(1+(r/100))**n);
+
          const repayAmount = Number(p) + Number(si);
+        //  const repayAmount = Number(p) + Number(ci);
          const emiLocal = repayAmount / (n*  12);
          setEmi(emiLocal);
 
