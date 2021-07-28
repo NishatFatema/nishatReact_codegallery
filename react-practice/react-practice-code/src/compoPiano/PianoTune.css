@@ -1,0 +1,21 @@
+Button{
+
+
+    text-align: center;
+    height: 400px !important;
+    width: 50px !important ;
+    padding : 20px !important;
+    margin :5px !important;
+    box-shadow: 0 0 10px black;
+}
+
+Button:hover{
+    transform: scale(1.1);
+}
+
+h1{
+color: brown;
+text-align: center;
+text-decoration: solid;
+
+}
