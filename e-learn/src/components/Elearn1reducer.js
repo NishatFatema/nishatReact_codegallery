@@ -1,7 +1,7 @@
-export const Elearn1 = {
+export const Elearn1reducer = {
     Elearn1data:[
         {
             Title:"www.pickupbiz.co.in",
-        },
+        }
     ],
 };

@@ -1,0 +1,18 @@
+.Calc{
+
+    background-color: rgb(155, 178, 221) !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 150px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px;
+
+    }
+    
+
+ h1{
+
+     color :rgb(29, 28, 28);
+     text-decoration: border;
+     
+ }   
