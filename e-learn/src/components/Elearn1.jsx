@@ -1,21 +1,19 @@
 import React from "react";
+import {} from "react-bootstrap";
+import Marquee from "react-fast-marquee";
 import "./Elearn1.css";
+import { BiNews } from "react-icons/bi";
 
-// import Elearn1 from "./Elearn1";
-// import Elearn from "./Elearn";
-
-export const Elearn1 = ({itemData}) => {
-    return  (
-                <div>
-                    
-
-
-<marquee className="marquee" behavior="scroll" direction="left"><b>{itemData}</b>
-
-</marquee>
-                </div>
-
-             )
-
-}
-export default Elearn1
+export const Elearn1 = ({ itemData }) => {
+  return (
+    <div>
+      <Marquee className="mq1" pauseOnHover={true}>
+        <BiNews />
+        
+        <a href="https://youtu.be/wgiW1uFZYr8">
+        {itemData.Title}
+        </a>
+      </Marquee>
+    </div>
+  );
+};

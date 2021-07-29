@@ -1,0 +1,11 @@
+.player{
+    margin:20px   !important;
+    padding: 10px;
+    background-color: cadetblue !important;
+    height :150px !important;
+}
+
+.Button{
+    height: 75px !important;
+    width: 100px  !important;
+}

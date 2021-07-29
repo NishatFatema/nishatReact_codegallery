@@ -1,5 +1,11 @@
-.marquee{
-    color: blue;
-    font-size: large;
-    background-color: rgb(113,233,77);
+.mq1{
+
+    font-size: medium;
+    background-color: red;
+    /* text-decoration: none; */
+}
+a{
+
+    color: rgb(245, 245, 250) !important;
+    text-decoration: none !important;
 }

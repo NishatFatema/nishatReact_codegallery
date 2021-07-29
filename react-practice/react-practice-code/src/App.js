@@ -1,4 +1,5 @@
 import './App.css';
+import { AudioPlayer } from './compoPiano/AudioPlayer';
 import { PianoTuneP } from './compoPiano/PianoTuneP';
 // import { PianoTune } from './compoPiano/PianoTune';
 // import { Emicalc } from './compoEMI/Emicalc';
@@ -20,6 +21,7 @@ function App() {
      {/* <Emicalc></Emicalc> */}
      <PianoTuneP/>
      
+<AudioPlayer/>
 
 </div>
   );

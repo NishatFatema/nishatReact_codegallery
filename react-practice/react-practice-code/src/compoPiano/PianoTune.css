@@ -17,5 +17,10 @@ h1{
 color: brown;
 text-align: center;
 text-decoration: solid;
+background-color: cadetblue;
 
+}
+Button{
+    height:50;
+    width: 100;
 }
