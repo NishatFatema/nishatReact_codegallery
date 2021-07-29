@@ -11,14 +11,14 @@ export const PianoTune = ()=>{
     return(
         <div>
 
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("A")} >Sa</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("B")}>Re</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("C")}>Ga</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("D")}>Ma</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("E")}>Pa</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("F")}>Dha</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("G")}>ni</Button>
-            <Button variant="outline-secondary" onMouseDown={()=>handleplay("A")}>Sa</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("A")} >Sa</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("B")}>Re</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("C")}>Ga</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("D")}>Ma</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("E")}>Pa</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("F")}>Dha</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("G")}>ni</Button>
+            <Button variant="outline-secondary" onClick={()=>handleplay("A")}>Sa</Button>
      
 
         </div>
