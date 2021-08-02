@@ -1,0 +1,25 @@
+
+.anchor{
+
+    color: white !important;
+    padding: 20px;
+    margin:20px;
+    font-weight:bolder ;
+    text-decoration: none;
+    font-size: larger;
+
+}
+.me-auto{
+    background-color:violet !important;
+}
+.anchor:hover{
+
+    border-radius: 15px !important;
+    color:black !important;
+    background-color: white;
+   
+}
+.main{
+
+    background-color: violet!important;
+}
