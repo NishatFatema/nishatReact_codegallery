@@ -1,0 +1,15 @@
+.Card{
+    background-color:  cadetblue ;
+    margin: 10px;
+    padding: 10px;
+    display: inline-flex;
+}
+.Col-1{
+background-color: cadetblue;
+
+
+}
+
+.Cardbody{
+    background-color: mediumorchid;
+}

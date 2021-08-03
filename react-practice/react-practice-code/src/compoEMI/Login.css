@@ -1,0 +1,22 @@
+.login{
+margin: auto !important;
+margin-top: 10px !important;
+padding: 15px !important;
+background-color: rgb(122, 197, 151) !important;
+width: 500px !important;
+
+}
+
+.loginCol{
+
+    margin:10px !important;
+    
+}
+.loginButton{
+
+    margin-top: 5px 10px 10px 5px !important;
+    padding: 5px 10px 10px 5px !important;
+    border: rgb(52, 126, 98);
+    display: inline-block !important;
+    
+}

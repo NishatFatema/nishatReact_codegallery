@@ -1,0 +1,21 @@
+.tab-content{
+background-color: cadetblue !important;
+padding: 10px;
+}
+.nav-item
+{
+background-color: tomato !important;
+    color: cornsilk;
+}
+.nav-tabs .nav-links{
+    color: floralwhite;
+    background-color: tomato !important;
+
+font-weight: bolder;
+
+}
+.active{
+background-color: orange;
+}
+
+
