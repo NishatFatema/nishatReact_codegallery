@@ -1,0 +1,11 @@
+.clock{
+    margin:10px;
+    padding:20px;
+    background-color: teal !important;
+}
+.clock span{
+
+    color:navy !important;
+    font-size: 50px;
+    text-align: center;
+}

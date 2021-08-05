@@ -1,4 +1,7 @@
 import './App.css';
+
+// import {Clock} from "./compoEMI/Clock";
+
 // import { EmpCardParent } from './CompoCard/EmpCardParent';
 // import { AudioPlayer } from './compoPiano/AudioPlayer';
 // import { PianoTuneP } from './compoPiano/PianoTuneP';
@@ -8,7 +11,7 @@ import './App.css';
 // import Sectionfooter from './component/footer/Sectionfooter';
 // import {Section} from "./component/Section"
 // import Navigation from "./component/header/Navigation"
-import {Home} from './compoTab/Home';
+// import {Home} from './compoTab/Home';
 import {RouteNavigation} from "./CompoRoutes/RouteNavigation"
 import {RouteHome} from "./CompoRoutes/RouteHome"
 import {RouteAboutUs} from "./CompoRoutes/RouteAboutUs"
@@ -35,7 +38,7 @@ function App() {
 
 {/* <Home/> */}
 
-<Router>
+ <Router>
 <RouteNavigation/>
 <Switch>
 <div>
@@ -65,11 +68,14 @@ function App() {
 </div>
 </Switch>
 </Router>
-<Login/>
+
+
+
+
+{/* <Clock/> */}
 
 </div>
-
-  );
+  )
 }
 
 export default App;

@@ -102,7 +102,17 @@ export const Toggling =()=>{
                                 <b>Full Name</b>
                                 <h3>{`${fname}${lname},`}</h3>
                                 </Col>
+                                <b>Date of birth</b>
+                                <Col>{`${dob}`}</Col>
                             </Row>
+                            <Row>
+                                <Col>
+                                <b>qualification</b>
+                                <h3>{`${qualification},`}</h3>
+                                </Col>
+                                <Col>{`${dob}`}</Col>
+                            </Row>
+
 
 
                         </Col>

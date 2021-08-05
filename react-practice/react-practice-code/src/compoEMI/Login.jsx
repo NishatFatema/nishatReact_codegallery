@@ -13,7 +13,7 @@ export const Login=()=>{
 
     useEffect(()=>{
 
-if(username.length >=5 && password.length>=6)
+if(username.length >=5 && password.length>=6){
         setIsvalid(false);
 
         if(userData.UserName==username.trim() && userData.Password===password.trim() )
@@ -22,7 +22,7 @@ if(username.length >=5 && password.length>=6)
 
           localStorage.setItem("token",userData.token)
         }
-    else setIsvalid(true);
+  }else setPassword(true);
 
     },[username,password]);
 
