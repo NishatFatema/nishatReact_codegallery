@@ -28,7 +28,7 @@ export const Toggling =()=>{
                                      <Col>
                                          <Form.Label> First Name : </Form.Label>
                                      </Col>
-                            </Row>
+                               </Row>
                                 <Row>
                                     <Col>
                                         <Form.Control type="text" placeholder="enter first name" onChange={(e)=> setFname(e.target.value)} value={fname}></Form.Control>
@@ -103,25 +103,19 @@ export const Toggling =()=>{
                                 <h3>{`${fname}${lname},`}</h3>
                                 </Col>
                             </Row>
-
-
                         </Col>
                         <Col md={3}></Col>
-                   
-
-
-
-                   </Card.Group>
-                   
-                   </Card.Body> 
-       </Row>
-   </Col>     
-   <Col md={3}>
-       <Image
-       src={"bulb.${bulb}.png"}
-       width="200px"
-       onClick={()=> (bulb==="off" ? setBulb("on"):setBulb("off"))}/>
-   </Col>
+                        <Col md={3}>
+                          <Image
+                             src={"bulb.${bulb}.png"}
+                             width="200px"
+                            onClick={()=> (bulb==="off" ? setBulb("on"):setBulb("off"))}/>
+                            </Col>
+                   </Row>
+             </Card.Body> 
+        </Card>
+    </Row>
+</Col>
 
 
         </Row>

@@ -1,0 +1,68 @@
+/* ----------------user Asist css-------------- */
+.userasist
+{
+    background-color: thistle;
+    margin: 0px 0px 0px 0px;
+    padding : 0px 20px 0px 0px;
+    font-family: cursive;
+    color: red;
+}
+
+nav{
+    background-color:teal;
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.navanchors{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: larger;
+    padding : 10px 20px 10px 10px;
+}
+.navanchors:hover{
+    
+    background-color: white;
+    color:teal;
+    border-radius: 8px;
+}
+
+/* -------logo css ------------- */
+.logoclass
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: -44px 0px 0px -680px;
+}
+
+/* ----------------search bar area------------ */
+.searchtext
+{
+    position: absolute;
+    padding: 5px;
+    outline: none;
+    width: 180px;
+    margin: -40px 0px 0px 380px;
+}
+
+/* -----------search button-------------------- */
+.searchbutton
+{
+    position: absolute;
+    padding: 5px;
+    width: 80px;
+    margin: -40px 0px 0px 580px;
+}
+
+/* -----------user icon-------------- */
+.usericon
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: -22px 0px 0px 340px;
+}

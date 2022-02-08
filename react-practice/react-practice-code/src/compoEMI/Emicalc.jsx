@@ -1,12 +1,15 @@
 // import { Button } from "bootstrap"
 import React, {useState} from "react";
+import { useMemo } from "react";
+import { useEffect } from "react";
 import { Form, Row, Col, Button,  Card} from "react-bootstrap";
 import "./Emicalc.css";
- export const Emicalc =()=>{
+ export const Emicalc =({specDisc})=>{
      const  [p,setP] = useState(0);
      const  [n,setN] = useState(0);
      const  [r,setR] = useState(0);
-     const  [emi,setEmi] = useState(0);
+    
+    //  const  [emi,setEmi] = useState(0);
 
      const handleCalEMI=()=>{
 
@@ -16,10 +19,17 @@ import "./Emicalc.css";
          const repayAmount = Number(p) + Number(si);
         //  const repayAmount = Number(p) + Number(ci);
          const emiLocal = repayAmount / (n*  12);
-         setEmi(emiLocal);
+        //  setEmi(emiLocal);
+         return (emiLocal-(emiLocal*(specDisc / 100)));
+        };
+        const emi = useMemo(()=>handleCalEMI(),[p,n,r,specDisc]);
+// componentdidUpdate / componenetWillUpdate.....class component
+        // useEffect(()=>{  
 
-         
-     };
+        //    handleCalEMI();
+
+        // },[p,n,r]);
+
      return(
  <div>
         <Card className="Calc">

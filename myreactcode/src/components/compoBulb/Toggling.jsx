@@ -107,11 +107,32 @@ export const Toggling =()=>{
                             </Row>
                             <Row>
                                 <Col>
-                                <b>qualification</b>
+                                <b>Qualification</b>
                                 <h3>{`${qualification},`}</h3>
                                 </Col>
-                                <Col>{`${dob}`}</Col>
-                            </Row>
+                                </Row>
+
+                                <Row>
+                                    <b>House Number</b>
+                                <Col>{`${houseno}`}</Col>
+                                </Row>
+
+                                <Row>
+                                    <b>State</b>
+                                <Col>{`${state}`}</Col>
+                                </Row>
+                            
+                                <Row>
+                                    <b>City</b>
+                                <Col>{`${city}`}</Col>
+                                </Row>
+                            
+                                <Row>
+                                    <b>Street</b>
+                                <Col>{`${street}`}</Col>
+                                </Row>
+                            
+                            
 
 
 
@@ -121,20 +142,21 @@ export const Toggling =()=>{
 
 
 
-                   </Card.Group>
+                 
                    
                    </Card.Body> 
-       </Row>
-   </Col>     
+       
+   
    <Col md={3}>
        <Image
        src={"bulb.${bulb}.png"}
        width="200px"
        onClick={()=> (bulb==="off" ? setBulb("on"):setBulb("off"))}/>
    </Col>
-
+   </Card.Group>
 
         </Row>
+        
     </div>
     
 

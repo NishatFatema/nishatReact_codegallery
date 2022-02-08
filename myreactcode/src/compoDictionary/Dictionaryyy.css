@@ -1,0 +1,29 @@
+.overall{
+
+    padding: 50px;
+    position: sticky !important;
+    margin:50px;
+    top: -20;
+    
+    background: linear-gradient(20deg, rgb(245, 166, 179),rgb(245, 86, 245),rgb(108, 108, 250)) !important;
+
+}
+.subDiv1{
+
+    padding: 10px;
+    margin:10px;
+}
+
+.subDiv2{
+
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+  
+    padding-bottom: 40px;
+
+    }
+
+

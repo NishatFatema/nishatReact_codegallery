@@ -1,4 +1,4 @@
-import React,{ useEffect, useState} from "react";
+import React,{ useEffect, useState, useRef} from "react";
 import { Button, Row, Col, Form, Card } from "react-bootstrap";
 import {userData} from "./Config"
 import "./Login.css"
@@ -10,6 +10,8 @@ export const Login=()=>{
     const [password , setPassword] = useState(" ");
     const [isvalid, setIsvalid] = useState(true);
     const [isSuccess, setSuccess] = useState(false);
+    const eleUserName= useRef();
+    const elePassword= useRef();
 
     useEffect(()=>{
 
@@ -25,6 +27,21 @@ if(username.length >=5 && password.length>=6){
   }else setPassword(true);
 
     },[username,password]);
+
+    useEffect(()=>{
+        if (localStorage.getItem("username")){
+
+            eleUserName.current.value=localStorage.getItem("username")
+            elePassword.current.focus();
+        }
+        else {
+            eleUserName.current.focus();
+        }
+
+
+    },[]);
+    
+    
 
     return(
 
@@ -42,12 +59,16 @@ if(username.length >=5 && password.length>=6){
         
 
             <Col md={11} className="loginCol">
-                <Form.Control type="text" placeholder="user name" onChange={(e)=>setUsername(e.target.value)}></Form.Control>
+                <Form.Control type="text" placeholder="user name"  ref={eleUserName} onChange={(e)=>setUsername(e.target.value)}>
+                   
+                </Form.Control>
                 
             </Col>
 
             <Col md={11} className="loginCol">
-            <Form.Control type="password" placeholder="password" onChange={(e)=>setPassword(e.target.value)}></Form.Control>
+            <Form.Control type="password" placeholder="password"  ref={elePassword} onChange={(e)=>setPassword(e.target.value)}>
+                
+            </Form.Control>
             </Col>
 
             

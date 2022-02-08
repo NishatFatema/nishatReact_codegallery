@@ -1,7 +1,9 @@
 import './App.css';
+import { DynamicComp } from './CompoRoutes/DynamicComp';
 
 // import {Clock} from "./compoEMI/Clock";
-
+// import React,{ useEffect, useMemo, useState } from 'react';
+// import {Form} from "react-bootstrap"
 // import { EmpCardParent } from './CompoCard/EmpCardParent';
 // import { AudioPlayer } from './compoPiano/AudioPlayer';
 // import { PianoTuneP } from './compoPiano/PianoTuneP';
@@ -12,17 +14,22 @@ import './App.css';
 // import {Section} from "./component/Section"
 // import Navigation from "./component/header/Navigation"
 // import {Home} from './compoTab/Home';
-import {RouteNavigation} from "./CompoRoutes/RouteNavigation"
-import {RouteHome} from "./CompoRoutes/RouteHome"
-import {RouteAboutUs} from "./CompoRoutes/RouteAboutUs"
-import {RouteContactUs} from "./CompoRoutes/RouteContactUs"
-import {RouteCourse} from "./CompoRoutes/RouteCourse"
-import {RouteService} from "./CompoRoutes/RouteService"
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import {Login} from "./compoEMI/Login"
+// import {RouteNavigation} from "./CompoRoutes/RouteNavigation"
+// import {RouteHome} from "./CompoRoutes/RouteHome"
+// import {RouteAboutUs} from "./CompoRoutes/RouteAboutUs"
+// import {RouteContactUs} from "./CompoRoutes/RouteContactUs"
+// import {RouteCourse} from "./CompoRoutes/RouteCourse"
+// import {RouteService} from "./CompoRoutes/RouteService"
+// import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+// import {Login} from "./compoEMI/Login"
 function App() {
+  
+  // const [specDisc,setSpecDisc]=useState(0);
+
+
   return (
     <div className="App">
+      <DynamicComp/>
       {/* <Section/>
 
      <Navigation/>
@@ -30,15 +37,18 @@ function App() {
      <Sectionbody></Sectionbody>
      <Sectionfooter/>
      */}
-     {/* <Emicalc></Emicalc> */}
-     {/* <PianoTuneP/> */}
      
+     {/* <Form.Control type="number" placeholder="special discount" onChange={(e)=>setSpecDisc(e.target.value)}/>
+
+     <Emicalc specDisc={specDisc}/>
+     <PianoTuneP/>
+      */}
 {/* <AudioPlayer/> */}
 {/* <EmpCardParent/> */}
 
 {/* <Home/> */}
 
- <Router>
+ {/* <Router>
 <RouteNavigation/>
 <Switch>
 <div>
@@ -69,7 +79,7 @@ function App() {
 </Switch>
 </Router>
 
-
+ */}
 
 
 {/* <Clock/> */}
